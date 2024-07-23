@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_extras import add_vertical_space as avs
 import time
 import random
-import os
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
