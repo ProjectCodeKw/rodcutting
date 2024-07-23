@@ -39,7 +39,7 @@ def brute_force(p,n):
     
 
 def generate_data():
-    algos = {"Rot Cutting Buttom UP ":rod_cutting, "Rot Cutting Brute Force ":brute_force}
+    algos = {"ROD Cutting Buttom UP ":rod_cutting, "ROD Cutting Brute Force ":brute_force}
     data = []
     for i in range(5,25+1,5):
         p = [random.randint(1,30) for i in range(i)]
@@ -141,7 +141,7 @@ def plot1():
 
 def analysis():
     st.subheader("1| :blue[About]")
-    st.markdown("This website showcases the difference in time complexities for both approaches for ROT CUTTING, the brute force approach VS the Dynamic Programming Bottom Up approach. ")
+    st.markdown("This website showcases the difference in time complexities for both approaches for ROD CUTTING, the brute force approach VS the Dynamic Programming Bottom Up approach. ")
     st.markdown("---")
     st.subheader("2| :blue[Generating Data]")
     st.markdown("- For this experement random data was generated and pushed into the two functions.")
@@ -292,9 +292,9 @@ def test_input():
         ax.set_title("Rod Cutting Solution (Green lines indicate cuts)")
         st.pyplot(fig)
 
-st.set_page_config("Rot Cutting", page_icon='🔪', layout='centered')
+st.set_page_config("Rod Cutting", page_icon='🔪', layout='centered')
 st.image("m.jpg", use_column_width=True)
-st.title("ROT CUTTING")
+st.title("ROD CUTTING")
 
 t1, t2 = st.tabs(["Bottom-Up Vs Brute Force Analysis", "Try New Input"])
 with t1:
