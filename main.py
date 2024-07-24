@@ -278,7 +278,7 @@ def test_input():
         # Display the final cutting solution
 
         fig, ax = plt.subplots(figsize=(10, 2))
-        ax.barh(y=0, width=n, height=0.4, color='blue', edgecolor='black')
+        ax.barh(y=0, width=n, height=0.4, color='grey', edgecolor='black')
 
         current_length = 0
         for cut in cuts:
