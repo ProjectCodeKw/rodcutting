@@ -247,7 +247,7 @@ def test_input():
 
         rot_cutting_ms = [time * 1000 for time in [bu_time]]
         brute_force_ms = [time * 1000 for time in [bf_time]]
-
+        st.subheader("2| :blue[Running Time Analysis]")
         #print table
         data = {
             'Rod Length (n)': n,
@@ -266,7 +266,7 @@ def test_input():
                 st.markdown("**:blue[WINNER is] :red[BRUTE FORCE] :blue[!]**")
 
         avs.add_vertical_space(2)
-        st.subheader("2| :blue[Rod Cutting Solution]")
+        st.subheader("3| :blue[Rod Cutting Solution]")
         
         # reconstruct the rod:
         cuts = reconstruct_cuts(s, n)
