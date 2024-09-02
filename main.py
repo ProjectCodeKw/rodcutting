@@ -292,7 +292,6 @@ def test_input():
         st.pyplot(fig)
 
 st.set_page_config("Rod Cutting", page_icon='🔪', layout='centered')
-st.image("m.jpg", use_column_width=True)
 st.title("ROD CUTTING")
 
 t1, t2 = st.tabs(["Bottom-Up Vs Brute Force Analysis", "Try New Input"])
