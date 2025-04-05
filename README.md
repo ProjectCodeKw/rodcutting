@@ -1,4 +1,4 @@
-# Rod Cutting Algorithm Comparison
+# Rod Cutting Algorithm Comparison [Streamlit App]
 
 This Streamlit web application visually demonstrates and compares the performance of two approaches to the classic Rod Cutting problem:
 
