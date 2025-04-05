@@ -129,3 +129,8 @@ You can install these dependencies using pip:
 
 ```bash
 pip install streamlit streamlit-extras matplotlib numpy pandas graphviz
+```
+Run the app with:
+```bash
+streamlit run main.py
+```
